@@ -1,7 +1,7 @@
 
 const prefix = "training-app-shell:";
-const cacheName = prefix + '23222a6f1e1941d4bc41a6d23246faa566d86a4252ef9c29785026e8f32f088d';
-const files = ["./assets/index-BYM3Ya0h.js","./assets/index-B6sHWxa3.css","./index.html","./manifest.webmanifest","./icons/app-192.png","./icons/app-512.png","./icons/maskable-512.png","./icons/apple-180.png"]
+const cacheName = prefix + 'd0005acf575334b9e50854504839346ca869c183288465c746a725c1b9c555b0';
+const files = ["./assets/index-kDUi1iLO.js","./assets/index-CubyOzwC.css","./index.html","./manifest.webmanifest","./icons/app-192.png","./icons/app-512.png","./icons/maskable-512.png","./icons/apple-180.png"]
   .map(file => new URL(file, self.registration.scope).href);
 const index = new URL('./index.html', self.registration.scope).href;
 const routes = [self.registration.scope, index];
