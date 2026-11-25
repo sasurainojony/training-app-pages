@@ -1,8 +1,8 @@
 
 const prefix = "training-app-shell:";
 const scopedPrefix = prefix + encodeURIComponent(self.registration.scope) + ':';
-const cacheName = scopedPrefix + 'e7c2d0afb8955d5925e314d3603127f0bcb30eb72729dcb0efaf86d690484ece';
-const files = ["./assets/index-Bqi2NKbD.js","./assets/index-Cw3a0G1k.css","./index.html","./manifest.webmanifest","./icons/app-192.png","./icons/app-512.png","./icons/maskable-512.png","./icons/apple-180.png"]
+const cacheName = scopedPrefix + '0e555c7e698395415fc9fe1254f347260c4d272930d7b837fd906d872c82713f';
+const files = ["./assets/index-De80E4Sd.js","./assets/index-CneGkDT4.css","./index.html","./manifest.webmanifest","./icons/app-192.png","./icons/app-512.png","./icons/maskable-512.png","./icons/apple-180.png"]
   .map(file => new URL(file, self.registration.scope).href);
 const index = new URL('./index.html', self.registration.scope).href;
 const routes = [self.registration.scope, index];
@@ -37,7 +37,7 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('message', event => {
   if (event.data?.type === 'ACTIVATE_UPDATE') event.waitUntil(self.skipWaiting());
-  if (event.data?.type === 'READ_BUILD_NONCE') event.ports[0]?.postMessage("ecca175f");
+  if (event.data?.type === 'READ_BUILD_NONCE') event.ports[0]?.postMessage("518c6bb9");
 });
 
 self.addEventListener('fetch', event => {
